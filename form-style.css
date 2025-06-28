@@ -1,0 +1,47 @@
+.share-journey {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 01px rgb(0,0,0,0.5);
+    font-family: sans-serif;
+}
+
+.share-journey h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.share-journey label{
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.share-journey input,
+.share-journey textarea{
+width: 300px;
+padding: 10px;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 15px;
+}
+
+.share-journey button{
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #0050ff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.share-journey button:hover{
+    background-color: #003fcc;
+}

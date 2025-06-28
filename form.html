@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form-style.css">
+    <title>Share your story </title>
+</head>
+<body>
+    <section class="share-journey">
+    <h2>Share your Tech Journey</h2>
+   <form action="https://formsubmit.co/ogilichigozie32@gmail.com" method="POST">
+        <label for="name">Full Name:</label><br>
+        <input type="text" name="name" required placeholder="Enter your name" class="input-box">
+        <br><br>
+
+        <label for="name">Email:</label><br>
+        <input type="Email" name="email" placeholder="Example11@gmail.com" required>
+        <br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="number" name="phone" placeholder="Enter your phone number">
+        <br><br>
+
+
+
+
+
+<textarea name="textarea" placeholder="Share your story here..." rows="10" maxlength="3000"></textarea>
+<br><br>
+
+<!-- Redirect to a thankyou page  -->
+ <input type="hidden" name="_next" value="https://chigozie32.github.io/contact-form/success.html"> 
+
+ <!-- disable captcha -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <input type="hidden" name="_template" value="table">
+
+
+<button type="submit">Submit</button> 
+</form>
+</section>
+
+</body>
+</html>
