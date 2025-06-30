@@ -77,6 +77,32 @@ textarea {
     width: 100%;
 }
 
+input{
+width: 300px;
+padding: 10px;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 15px;
+}
+
+button{
+       margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #0050ff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+      background-color: #003fcc;
+}
+
 @media (max-width: 900px) {
     .text-box {
     background-color: aliceblue;
